@@ -9,8 +9,7 @@ env:
     - COMPOSER_FLAGS=""
 
 php:
-    - 7.2
-    - 7.3
+    - 8.1
 
 sudo: false
 
@@ -26,6 +25,6 @@ before_script:
 
 script:
     - vendor/bin/phpunit
- 
+
 after_script:
     - docker-compose -f ./tests/docker-compose.yml down
