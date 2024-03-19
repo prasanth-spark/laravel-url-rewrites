@@ -1,22 +1,22 @@
 {
-  "name": "ruthgeridema/laravel-url-rewrites",
+  "name": "prasanth-spark/laravel-url-rewrites",
   "description": "Easy URL rewrites in your Laravel application",
   "keywords": [
     "url",
     "rewrite",
     "laravel"
   ],
-  "homepage": "https://github.com/ruthgeridema/laravel-url-rewrites",
+  "homepage": "https://github.com/prasanth-spark/laravel-url-rewrites",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ruthger Idema",
+      "name": "Prasanth P",
       "email": "ruthger.idema@gmail.com",
       "homepage": "https://ide.ma"
     }
   ],
   "require": {
-    "php": "^7.2",
+    "php": "^8.1",
     "laravel/framework": "*"
   },
   "require-dev": {
